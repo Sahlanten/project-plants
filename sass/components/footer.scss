@@ -1,0 +1,28 @@
+.contact-us{
+	padding: 60px 109px 0 109px;
+}
+
+.contact-us__wrapper{
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+.contact-us__title{
+	@extend %font-primary
+}
+
+.city-selection{
+	margin-top: 148px;
+	padding: 5px 225px 5px 21px;
+	display: flex;
+	justify-content: space-between;
+	min-width: 450px;
+	min-height: 50px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	background-color: #D6E7D2;
+	border: 0;
+	@include font(2rem, 4rem);
+	@extend %font-add;
+	color: $color-gray;
+}

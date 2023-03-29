@@ -1,0 +1,26 @@
+.about{
+background-color: #ffff;
+padding: 82px 109px 105px 109px;
+}
+
+.about__wrapper{
+	display: flex;
+	justify-content: space-between;
+}
+
+.about__content{
+	margin-top: 70px;
+}
+
+.about__title{
+	max-width: 463px;
+	color: $color-orange;
+}
+
+.about__text{
+	max-width: 600px;
+}
+
+.about__picture{
+	margin-left: 153px;
+}

@@ -1,0 +1,18 @@
+.intro{
+	padding: 50px 109px 109px 109px;
+}
+
+
+.intro__wrapper{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+}
+
+.intro__content{
+	max-width: 559px;
+}
+
+.intro__link{
+	@include font (1.6rem, 2rem);
+}

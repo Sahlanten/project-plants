@@ -1,0 +1,28 @@
+.header{
+	padding: 50px 109px 25px 109px;
+}
+
+.header__wrapper{
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.navigation{
+	display: flex;
+}
+
+.navigation__item{
+	margin-left: 44px;
+	&:last-child{
+		margin-right: 0;
+		margin-left: 44px;
+	}
+	&:hover{
+		color: $color-orange;
+	}
+}
+
+.navigation__link:hover{
+	font-weight: 700;
+}
